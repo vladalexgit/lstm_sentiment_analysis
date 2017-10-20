@@ -144,7 +144,7 @@ def preprocess():
     if not os.path.exists(processed_test_set):
         os.makedirs(processed_test_set)
 
-    # preprocess the dataset
+    print("Preprocessing dataset...")
 
     preprocess_data_subset(training_set + '/pos', processed_training_set + 'positive.txt')
     preprocess_data_subset(training_set + '/neg', processed_training_set + 'negative.txt')
