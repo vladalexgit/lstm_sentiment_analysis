@@ -162,7 +162,7 @@ word_vector_size = nlp.vocab.__getitem__("this").vector.shape[0]
 dataset_path = 'stanford_movie_review_dataset'
 
 training_set = dataset_path + '/train'
-test_set = dataset_path + 'test'
+test_set = dataset_path + '/test'
 
 processed_training_set = 'processed_dataset/train/'
 processed_test_set = 'processed_dataset/test/'
